@@ -1,0 +1,417 @@
+{
+  "home": {
+    "title": "início"
+  },
+  "hero": {
+    "title": {
+      "label": "desenvolvedor",
+      "value": "Aldair Garros"
+    },
+    "subtitle": {
+      "label": "intro",
+      "value": "Desenvolvedor Fullstack especializado em Web, Mobile, Javascript, API, Design Responsivo e UX/UI"
+    }
+  },
+  "projects": {
+    "title": "projetos",
+    "open": "abrir",
+    "list": {
+      "penhor": {
+        "image": {
+          "src": "/images/penhor-display.png",
+          "alt": "Image do projeto Penhor"
+        },
+        "name": {
+          "label": "nome",
+          "value": "Penhor"
+        },
+        "date": {
+          "label": "data",
+          "value": "2022"
+        },
+        "overview": {
+          "label": "visão geral",
+          "value": "Sistema para avaliadores de penhor trabalharem com gemologia, relojoaria e canetas de alto valor. Desenvolvido com Typescript, Next.js, Postgres, JWT e React Query. Design responsivo para desktop e mobile."
+        },
+        "description": {
+          "label": "descrição",
+          "value": "Projeto de um sistema para avaliadores de penhor, abrangendo atualmente três setores de penhor: gemologia, relojoaria e canetas de alto valor. A seção de gemologia inclui ferramentas para calcular as qualidades e características das gemas. As seções de relojoaria e canetas permitem que os usuários atualizem bancos de dados com detalhes e imagens de cada item."
+        },
+        "details": {
+          "label": "detalhes",
+          "value": "O sistema, desenvolvido com Typescript usando Next.js e um banco de dados Postgres gerenciado com Prisma, integra autenticação JWT para controle de acesso, TanStack Query (React Query) para gerenciar cache e solicitação de dados e TanStack Table (React Table) para fácil e rápida implementação das tabelas para o usuário. Além disso, mantém um registro de alterações de conteúdo para fins de auditoria. E é totalmente operacional e responsivo, garantindo um funcionamento perfeito nas pequenas telas de dispositivos móveis."
+        },
+        "images": {
+          "label": "imagens",
+          "list": {
+            "image1": {
+              "src": "/images/penhor-desktop.png",
+              "alt": "Imagem do projeto Penhor",
+              "width": "1280",
+              "height": "1017"
+            },
+            "image2": {
+              "src": "/images/penhor-mobile.jpeg",
+              "alt": "Imagem do projeto Penhor",
+              "width": "393",
+              "height": "852"
+            },
+            "image3": {
+              "src": "/images/penhor-mobile2.jpeg",
+              "alt": "Imagem do projeto Penhor",
+              "width": "393",
+              "height": "852"
+            }
+          }
+        }
+      },
+      "musicaShow": {
+        "image": {
+          "src": "/images/musicashow-display.png",
+          "alt": "Imagem do projeto Musical Show"
+        },
+        "name": {
+          "label": "nome",
+          "value": "Musica Show"
+        },
+        "date": {
+          "label": "data",
+          "value": "2023"
+        },
+        "overview": {
+          "label": "visão geral",
+          "value": "Projeto de aplicativo projetado para artistas musicais, prestadores de serviços e equipamentos e potenciais contratantes. Abrange UI/UX, frontend, banco de dados e backend. Desenvolvido com Typescript, React Native, Postgres e JWT. Compatível com plataformas Android e iOS."
+        },
+        "description": {
+          "label": "descrição",
+          "value": "Um aplicativo criado para facilitar a comunicação entre artistas musicais e potenciais contratantes, fornecendo uma plataforma para que os artistas mostrem seus talentos e para que os produtores de eventos articulem suas necessidades para encontrar artistas adequados. Além disso, serve como plataforma para prestadores de serviços e equipamentos mostrarem suas ofertas."
+        },
+        "details": {
+          "label": "detalhes",
+          "value": "O projeto abrange pesquisa, design, prototipagem, desenvolvimento frontend e backend, arquitetura de banco de dados e UX/UI. Desenvolvido com Typescript em React Native, com Postgres como solução de banco de dados principal. O sistema de autenticação é baseado em JWT (JSON Web Tokens). O aplicativo é otimizado para velocidade, funcionalidade leve e é operacional nas plataformas Android e iOS, garantindo uma experiência perfeita para o usuário."
+        },
+        "link": {
+          "label": "Projeto UI/UX",
+          "href": "https://1drv.ms/b/s!Ahzhzyfa_0Qfg_8KTNTVdGeCYU3hZw?e=B3whDj",
+          "value": "Ver Projeto UI/UX"
+        },
+        "images": {
+          "label": "imagens",
+          "list": {
+            "image1": {
+              "src": "/images/musicalshow.png",
+              "alt": "Imagem do projeto Musica Show",
+              "width": "393",
+              "height": "852"
+            },
+            "image2": {
+              "src": "/images/musicalshow2.png",
+              "alt": "Imagem do projeto Musica Show",
+              "width": "393",
+              "height": "852"
+            },
+            "image3": {
+              "src": "/images/musicalshow3.png",
+              "alt": "Imagem do projeto Musica Show",
+              "width": "393",
+              "height": "852"
+            },
+            "image4": {
+              "src": "/images/musicalshow4.png",
+              "alt": "Imagem do projeto Musica Show",
+              "width": "393",
+              "height": "852"
+            }
+          }
+        }
+      },
+      "bolsobom": {
+        "image": {
+          "src": "/images/bolsobom-display.png",
+          "alt": "Imagem do projeto Bolso Bom"
+        },
+        "name": {
+          "label": "nome",
+          "value": "Bolso Bom"
+        },
+        "date": {
+          "label": "data",
+          "value": "2023"
+        },
+        "overview": {
+          "label": "visão geral",
+          "value": "Projeto pessoal de um aplicativo financeiro projetado para facilidade e eficiência, abrangendo UX/UI, frontend, banco de dados e backend. Desenvolvido com Typescript, React Native, Postgres e JWT, opera nas plataformas Android e iOS."
+        },
+        "description": {
+          "label": "descrição",
+          "value": "Este projeto pessoal teve como objetivo substituir anotações financeiras tradicionais em papel por uma solução fácil e otimizada. O objetivo era criar uma ferramenta simples, direta e amigável para o usuário para facilitar a organização financeira eficiente."
+        },
+        "details": {
+          "label": "detalhes",
+          "value": "O projeto completo abrange pesquisa, design, prototipagem, desenvolvimento frontend e backend, arquitetura de banco de dados e UX/UI. Desenvolvido com Typescript em React Native, com Postgres como solução de banco de dados principal e empregando autenticação JWT. O aplicativo é otimizado para velocidade, funcionalidade leve e operação perfeita nas plataformas Android e iOS, garantindo uma experiência ideal para o usuário."
+        },
+        "link": {
+          "label": "Projeto UI/UX",
+          "href": "https://1drv.ms/b/s!Ahzhzyfa_0QfhIBLPZINN4Vy7ogJIA?e=ogETQy",
+          "value": "Ver Projeto UI/UX"
+        },
+        "images": {
+          "label": "imagens",
+          "list": {
+            "image1": {
+              "src": "/images/bolsobom.png",
+              "alt": "Imagem do projeto Bolso Bom",
+              "width": "393",
+              "height": "852"
+            },
+            "image2": {
+              "src": "/images/bolsobom2.png",
+              "alt": "Imagem do projeto Bolso Bom",
+              "width": "393",
+              "height": "852"
+            },
+            "image3": {
+              "src": "/images/bolsobom3.png",
+              "alt": "Imagem do projeto Bolso Bom",
+              "width": "393",
+              "height": "852"
+            },
+            "image4": {
+              "src": "/images/bolsobom4.png",
+              "alt": "Imagem do projeto Bolso Bom",
+              "width": "393",
+              "height": "852"
+            }
+          }
+        }
+      }
+    }
+  },
+  "expertise": {
+    "title": "competências",
+    "list": {
+      "backend": {
+        "title": "desenvolvimento_backend",
+        "list": {
+          "node": {
+            "label": "Node",
+            "imageSrc": "/images/nodejs.png"
+          },
+          "redux": {
+            "label": "Redux",
+            "imageSrc": "/images/redux.png"
+          },
+          "sql": {
+            "label": "SQL",
+            "imageSrc": "/images/postgres.png"
+          },
+          "prisma": {
+            "label": "Prisma",
+            "imageSrc": "/images/prisma.png"
+          },
+          "nginx": {
+            "label": "Nginx",
+            "imageSrc": "/images/nginx.png"
+          },
+          "apache": {
+            "label": "Apache",
+            "imageSrc": "/images/apache.png"
+          },
+          "rest": {
+            "label": "REST",
+            "imageSrc": "/images/restapi.png"
+          },
+          "mongodb": {
+            "label": "Mongo DB",
+            "imageSrc": "/images/mongodb.png"
+          },
+          "express": {
+            "label": "Express",
+            "imageSrc": "/images/expressjs.png"
+          },
+          "c": {
+            "label": "C",
+            "imageSrc": "/images/c.png"
+          }
+        }
+      },
+      "frontend": {
+        "title": "desenvolvimento_frontend",
+        "list": {
+          "css": {
+            "label": "CSS",
+            "imageSrc": "/images/css3.png"
+          },
+          "html": {
+            "label": "HTML",
+            "imageSrc": "/images/html5.png"
+          },
+          "javascript": {
+            "label": "JavaScript",
+            "imageSrc": "/images/js.png"
+          },
+          "typescript": {
+            "label": "TypeScript",
+            "imageSrc": "/images/ts.png"
+          },
+          "react": {
+            "label": "React",
+            "imageSrc": "/images/react.png"
+          },
+          "nextjs": {
+            "label": "NextJS",
+            "imageSrc": "/images/nextjs.png"
+          },
+          "reactNative": {
+            "label": "React Native",
+            "imageSrc": "/images/react.png"
+          },
+          "vite": {
+            "label": "Vite",
+            "imageSrc": "/images/vite.png"
+          },
+          "tailwind": {
+            "label": "TailwindCSS",
+            "imageSrc": "/images/tailwind.png"
+          }
+        }
+      },
+      "general": {
+        "title": "geral",
+        "list": {
+          "git": {
+            "label": "Git",
+            "imageSrc": "/images/git.png"
+          },
+          "ui": {
+            "label": "UI",
+            "imageSrc": "/images/design.png"
+          },
+          "ux": {
+            "label": "UX",
+            "imageSrc": "/images/insight.png"
+          },
+          "docker": {
+            "label": "Docker",
+            "imageSrc": "/images/docker.png"
+          },
+          "strapi": {
+            "label": "Strapi",
+            "imageSrc": "/images/strapi.png"
+          },
+          "jest": {
+            "label": "Jest",
+            "imageSrc": "/images/jest.png"
+          },
+          "solid": {
+            "label": "SOLID",
+            "imageSrc": "/images/solid.png"
+          },
+          "designPatterns": {
+            "label": "Design Patterns",
+            "imageSrc": "/images/design-patterns.png"
+          }
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "sobre",
+    "list": {
+      "experience1": {
+        "title": {
+          "label": "título",
+          "value": "Experiência como UI/UX Designer (Freelance)"
+        },
+        "description": {
+          "label": "descrição",
+          "value": "Planejamento e criação de produtos e serviços digitais, com foco em experiência do usuário e design de interface."
+        },
+        "work": {
+          "label": "trabalho",
+          "value": "Desenvolvi três projetos completos, iniciando com pesquisa, entrevistas com usuários, análise de concorrência, criação de proto-personas, mapeamento da jornada do usuário, matriz CSD, métricas de UX, mapas e fluxos, wireframes, testes de usabilidade, até o branding e protótipos de alta fidelidade, entre outros elementos."
+        },
+        "tools": {
+          "label": "ferramentas",
+          "value": "Adotei a metodologia Spiral UX UI Continuous, uma abstração do método Duplo Diamante, para conduzir meus projetos, utilizando o Figma como ferramenta principal."
+        },
+        "achievements": {
+          "label": "conquistas",
+          "value": "Recebi feedbacks positivos em todos os projetos pela abordagem simplificada, atenção aos detalhes e apreciação pelos resultados e informações oferecidos."
+        },
+        "start": {
+          "label": "início",
+          "value": "2023"
+        },
+        "end": {
+          "label": "fim",
+          "value": "atual"
+        }
+      },
+      "experience2": {
+        "title": {
+          "label": "título",
+          "value": "Experiência como Desenvolvedor Full Stack (Freelance)"
+        },
+        "description": {
+          "label": "descrição",
+          "value": "Desenvolvimento de projetos web responsivos e mobile nativos."
+        },
+        "work": {
+          "label": "trabalho",
+          "value": "Ao desenvolver duas plataformas web responsivas usando Next.js e dois aplicativos móveis nativos para Android e iOS com React Native CLI, gerenciei tanto o frontend quanto o backend, incluindo a implementação de API, autenticação segura e bancos de dados. Durante o desenvolvimento das complexas tabelas com recursos de seleção, filtros e ordenação, optei por utilizar a biblioteca TanStack React Table para gerenciamento de cache e requisições à API, resultando em melhorias significativas de desempenho e eficiência na produção. Além disso, para lidar com inputs select que apresentavam lentidão devido à grande quantidade de itens, implementei o React Window para otimizar a renderização, melhorando consideravelmente o desempenho do formulário e a experiência do usuário. Entreguei todos os produtos antes do prazo, permitindo aperfeiçoamentos e a implementação de alterações solicitadas pelos clientes. Optei pela biblioteca RNUILib no desenvolvimento com React Native devido ao seu desempenho superior nos testes. Além disso, escolhi o banco de dados Postgres pela sua estabilidade e potencial de escalabilidade."
+        },
+        "tools": {
+          "label": "ferramentas",
+          "value": "Inicialmente, adquiri proficiência em linguagens como C, JavaScript e Swift, além de configurar servidores VPS usando Nginx, Apache, Postgres, MariaDB, NodeJS, Docker, Git e PM2 para hospedagem de projetos. Desenvolvi projetos menores utilizando C, PHP, ViteJS, Express, MongoDB, Strapi, Bootstrap, Swift e JavaScript puro. Atualmente, concentro meu trabalho em ferramentas como Git, VSCode, Node, Typescript, NextJS, TailwindCSS, Docker, Jest e JWT (JSON Web Token), utilizando-os como principais recursos no desenvolvimento de projetos."
+        },
+        "achievements": {
+          "label": "conquistas",
+          "value": "Meus projetos incluem ferramentas atualmente implementadas e utilizadas diariamente em uma sala de controle de movimentações portuárias, destacando-se pela eficiência e contribuição para a gestão eficaz dessas operações. Além disso, desenvolvi e mantenho em funcionamento uma plataforma de avaliação de penhor e uma solução de controle financeiro, ambas demonstrando resultados positivos no gerenciamento e na análise de informações relevantes. Estou no processo de desenvolvimento de um aplicativo para contratação de serviços no ramo musical, visando oferecer uma solução intuitiva e eficiente. Apesar de serem meus primeiros projetos profissionais, receberam elogios pela atenção aos detalhes, desempenho e profissionalismo entregues. As boas observações dos usuários e clientes validam o cuidado e dedicação que coloco em meus trabalhos."
+        },
+        "start": {
+          "label": "início",
+          "value": "2022"
+        },
+        "end": {
+          "label": "fim",
+          "value": "atual"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "contato",
+    "list": {
+      "email": {
+        "label": "email",
+        "value": "info@aldairgc.com",
+        "href": "mailto:info@aldairgc.com"
+      },
+      "phone": {
+        "label": "telefone",
+        "value": "+55 98 988692991",
+        "href": "tel:5598988692991"
+      },
+      "whatsApp": {
+        "label": "whatsApp",
+        "value": "5598988692991",
+        "href": "https://wa.me/5598988692991/"
+      },
+      "linkedIn": {
+        "label": "linkedIn",
+        "value": "aldairgc",
+        "href": "https://www.linkedin.com/in/aldairgc/"
+      },
+      "github": {
+        "label": "github",
+        "value": "aldair-gc",
+        "href": "https://github.com/aldair-gc"
+      }
+    }
+  },
+  "extra": {
+    "openToWork": "disponível para trabalhar",
+    "imOpenToNewOpportunities": "Estou disponível para novas oportunidades. Entre em contato comigo."
+  }
+}
