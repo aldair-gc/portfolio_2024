@@ -15,7 +15,7 @@ export function Skill({ label, imageSrc, ...rest }: Props) {
         height={54}
         className="flex-1 object-contain drop-shadow group-hover:drop-shadow-lg dark:drop-shadow-light group-hover:scale-110 transition-all aspect-square"
       />
-      <span className="h-4 font-medium text-sm text-center text-primary-900 dark:text-primary-800 leading-4 z-10">
+      <span className="h-4 font-medium text-sm text-center text-primary-950 dark:text-primary-50 leading-4 z-10">
         {label}
       </span>
     </div>

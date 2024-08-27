@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FullScreenMenu } from "./FullScreenMenu";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 interface Props {
@@ -13,6 +13,7 @@ export function MenuBar({ links }: Props) {
 
   return (
     <>
+      <ScrollRestoration />
       <div className="fixed top-0 flex justify-end w-full backdrop-blur-md bg-primary-100/50 dark:bg-primary-800/50 z-20">
         <div
           className="sm:hidden flex items-center justify-center w-12 h-12 bg-primary-300 cursor-pointer select-none"
@@ -25,7 +26,7 @@ export function MenuBar({ links }: Props) {
               <Link
                 key={link}
                 className="flex items-center px-4 whitespace-nowrap font-medium text-primary-900 dark:text-primary-50 hover:text-secondary-700 hover:dark:text-secondary-400"
-                to={`/#${link}`}>
+                to={{ pathname: "/", hash: link }}>
                 &gt;&nbsp;{link}
               </Link>
             ))}

@@ -24,7 +24,7 @@ export function Container({
     <div>
       <div
         className={`flex flex-col p-2 sm:p-4 ${
-          background && "bg-primary-300 dark:bg-primary-600 w-full"
+          background && "bg-primary-50 dark:bg-primary-800 w-full"
         } ${shadow && "shadow-2xl"}`}>
         <p className="text-xl sm:text-2xl text-primary-400 dark:text-primary-400">
           {CLOSING[closing][0]}

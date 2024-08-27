@@ -13,7 +13,7 @@ export function About() {
       <Section title={t("title")} closing="squareBrace" className="sm:pl-20 py-20 w-full">
         <div className="flex flex-col gap-20 w-fit">
           {LIST.map((item) => (
-            <Container key={item} closing="curlyBrace" className="flex flex-col">
+            <Container key={item} closing="curlyBrace" className="flex flex-col pl-4">
               {ATTRIBUTES.map((attribute) => (
                 <Attribute
                   key={attribute}

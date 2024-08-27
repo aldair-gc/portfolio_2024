@@ -10,7 +10,7 @@ export function ProjectList({ list }: Props) {
   const { t } = useTranslation("translation", { keyPrefix: "projects" });
 
   return (
-    <main className="flex min-h-screen flex-col bg-primary-100 dark:bg-primary-800">
+    <main className="flex min-h-screen flex-col">
       <div className="w-full mx-auto z-10" id="home">
         <div className="w-full" id={t("title")}>
           <Section

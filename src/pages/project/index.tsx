@@ -4,14 +4,11 @@ import { Section } from "@/components/Section";
 import { Attribute } from "@/components/Attribute";
 import { ProjectList } from "@/modules/Projects/ProjectList";
 import { useTranslation } from "react-i18next";
+import { ScrollRestoration, useParams } from "react-router-dom";
 
-interface Props {
-  params: {
-    project: string;
-  };
-}
+export function Project() {
+  const { project } = useParams();
 
-export function Project({ params: { project } }: Props) {
   const { t: m } = useTranslation("translation", { keyPrefix: "extra" });
   const { t: p } = useTranslation("translation", { keyPrefix: `projects.list.${project}` });
   const keys = ["name", "date", "description", "details"] as const;
@@ -19,12 +16,13 @@ export function Project({ params: { project } }: Props) {
   const PROJECTLIST = ["penhor", "musicaShow", "bolsobom"];
 
   return (
-    <main className="flex min-h-screen flex-col bg-primary-100 dark:bg-primary-800">
+    <main className="flex min-h-screen flex-col">
+      <ScrollRestoration />
       <div className="w-full mx-auto z-10" id="top">
         <div className="flex flex-col w-full max-w-7xl px-4 gap-16 mx-auto z-10 py-14" id="top">
-          <Section title={project} closing="curlyBrace">
+          <Section title={`${project}`} closing="curlyBrace">
             <div className="py-10">
-              <Container shadow={false}>
+              <Container shadow={false} background={false}>
                 <div className="flex flex-col gap-4">
                   {keys.map((key) => (
                     <Attribute key={key} label={p(`${key}.label`)} value={p(`${key}.value`)} />

@@ -1,6 +1,7 @@
 import { HTMLAttributes } from "react";
 import { AttributeInterface } from "@/interfaces/attribute-interface";
 import { Images } from "./Images";
+import { Link } from "react-router-dom";
 
 interface Props extends AttributeInterface, HTMLAttributes<HTMLDivElement> {}
 
@@ -12,13 +13,11 @@ export function Attribute({ label, value, href, images, ...rest }: Props) {
         <p className="pl-4 sm:pl-0">
           {(value || href) && <span>&quot;</span>}
           {href ? (
-            <a
+            <Link
               className="text-secondary-800 dark:text-secondary-300 hover:text-secondary-300 dark:hover:text-secondary-800 hover:bg-secondary-800 dark:hover:bg-secondary-300 underline hover:no-underline"
-              href={href}
-              target="_blank"
-            >
+              to={href}>
               {value}
-            </a>
+            </Link>
           ) : (
             value && value
           )}

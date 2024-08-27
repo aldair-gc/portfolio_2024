@@ -13,7 +13,7 @@ export function ProjectCard({ project, ...rest }: ProjectProps) {
       <Link to={`/projects/${project}`} className="flex flex-col h-full w-full group">
         <div className="flex-1 flex justify-center p-4 md:p-8 bg-primary-500 dark:bg-primary-400">
           <img
-            src={`/images/${t("image.src")}`}
+            src={t("image.src")}
             alt={t("image.alt")}
             width={600}
             height={400}

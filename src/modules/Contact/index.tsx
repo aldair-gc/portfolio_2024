@@ -17,9 +17,13 @@ export function Contact({ textBox }: Props) {
       <Section
         title={t("title")}
         closing="squareBrace"
-        className="grid grid-cols-1 md:grid-cols-2 py-10 gap-y-5 w-full items-center justify-items-center">
-        {textBox && <TextBox text={textBox} />}
-        <Container closing="curlyBrace" shadow={false} background={false} className="w-fit">
+        className="grid grid-cols-1 md:grid-cols-2 py-10 gap-y-5 w-full items-center justify-items-centers">
+        {textBox && (
+          <div className="flex items-center justify-center">
+            <TextBox text={textBox} />
+          </div>
+        )}
+        <Container closing="curlyBrace" shadow={false} background={false}>
           <div className="flex flex-col">
             {keys.map((key) => (
               <Attribute
