@@ -9,7 +9,7 @@ interface Props {
 }
 
 export function Contact({ textBox }: Props) {
-  const { t } = useTranslation("contact");
+  const { t } = useTranslation("translation", { keyPrefix: "contact" });
   const keys = ["email", "phone", "whatsApp", "linkedIn", "github"] as const;
 
   return (

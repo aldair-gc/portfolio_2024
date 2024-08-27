@@ -7,7 +7,7 @@ interface Props {
 }
 
 export function ProjectList({ list }: Props) {
-  const { t } = useTranslation("projects");
+  const { t } = useTranslation("translation", { keyPrefix: "projects" });
 
   return (
     <main className="flex min-h-screen flex-col bg-primary-100 dark:bg-primary-800">

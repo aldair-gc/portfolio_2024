@@ -1,0 +1,35 @@
+[
+  {
+    "name": "backend",
+    "values": [
+      "node",
+      "redux",
+      "sql",
+      "prisma",
+      "nginx",
+      "apache",
+      "rest",
+      "mongodb",
+      "express",
+      "c"
+    ]
+  },
+  {
+    "name": "frontend",
+    "values": [
+      "css",
+      "html",
+      "javascript",
+      "typescript",
+      "react",
+      "nextjs",
+      "reactNative",
+      "vite",
+      "tailwind"
+    ]
+  },
+  {
+    "name": "general",
+    "values": ["git", "ui", "ux", "docker", "strapi", "jest", "solid", "designPatterns"]
+  }
+]

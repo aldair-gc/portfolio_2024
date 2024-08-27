@@ -11,9 +11,9 @@ interface Props {
   };
 }
 
-export default function Page({ params: { project } }: Props) {
-  const { t: m } = useTranslation("extra");
-  const { t: p } = useTranslation(`projects.list.${project}`);
+export function Project({ params: { project } }: Props) {
+  const { t: m } = useTranslation("translation", { keyPrefix: "extra" });
+  const { t: p } = useTranslation("translation", { keyPrefix: `projects.list.${project}` });
   const keys = ["name", "date", "description", "details"] as const;
   const IMAGES = ["image1", "image2", "image3"] as const;
   const PROJECTLIST = ["penhor", "musicaShow", "bolsobom"];

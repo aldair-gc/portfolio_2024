@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link, useParams } from "react-router-dom";
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
   open: boolean;
@@ -8,6 +8,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
 
 export function FullScreenMenu({ open, links, ...rest }: Props) {
   const path = useLocation().pathname;
+  const { locale } = useParams();
 
   return (
     <div

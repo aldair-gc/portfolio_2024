@@ -6,11 +6,11 @@ import { Projects } from "@/modules/Projects";
 import { Sticker } from "@/modules/Sticker";
 import { useTranslation } from "react-i18next";
 
-export default function LocaleHome() {
-  const { t } = useTranslation("extra");
+export function Home() {
+  const { t } = useTranslation("translation", { keyPrefix: "extra" });
 
   return (
-    <main className="flex min-h-screen flex-col bg-primary-100 dark:bg-primary-800">
+    <main className="flex min-h-screen flex-col">
       <div className="w-full mx-auto z-10" id="home">
         <Hero />
         <Projects />

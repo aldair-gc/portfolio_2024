@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FullScreenMenu } from "./FullScreenMenu";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   links: string[];
@@ -8,9 +9,7 @@ interface Props {
 
 export function MenuBar({ links }: Props) {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-
-  const { locale } = useParams();
-  const path = useLocation().pathname;
+  const { language, changeLanguage } = useTranslation().i18n;
 
   return (
     <>
@@ -32,26 +31,24 @@ export function MenuBar({ links }: Props) {
             ))}
           </div>
           <div className="flex items-center">
-            <Link
+            <span
               className={`p-4 cursor-pointer ${
-                locale === "en"
+                language === "en"
                   ? "text-secondary-700 dark:text-secondary-300"
                   : "text-primary-600 dark:text-primary-200"
               }`}
-              to={path}
-              lang="en">
+              onClick={() => changeLanguage("en")}>
               {"| english"}
-            </Link>
-            <Link
+            </span>
+            <span
               className={`p-4 cursor-pointer ${
-                locale === "br"
+                language === "br"
                   ? "text-secondary-700 dark:text-secondary-300"
                   : "text-primary-600 dark:text-primary-200"
               }`}
-              to={path}
-              lang="br">
+              onClick={() => changeLanguage("br")}>
               {"| português"}
-            </Link>
+            </span>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { Attribute } from "../../components/Attribute";
 import { useTranslation } from "react-i18next";
 
 export function About() {
-  const { t } = useTranslation("about");
+  const { t } = useTranslation("translation", { keyPrefix: "about" });
   const LIST = ["experience1", "experience2"];
   const ATTRIBUTES = ["title", "description", "work", "tools", "achievements", "start", "end"];
 

@@ -2,10 +2,9 @@ import { Section } from "../../components/Section";
 import { Container } from "../../components/Container";
 import { Attribute } from "../../components/Attribute";
 import { useTranslation } from "react-i18next";
-import { LinkButton } from "@/components/LinkButton";
 
 export function Projects() {
-  const { t } = useTranslation("projects");
+  const { t } = useTranslation("translation", { keyPrefix: "projects" });
 
   const projects = ["penhor", "musicaShow", "bolsobom"];
   const attributes = ["name", "date", "overview"];
@@ -15,10 +14,12 @@ export function Projects() {
       <Section
         title={t("title")}
         closing="squareBrace"
-        className="md:pl-20 md:pr-10 py-20 w-full flex flex-col gap-20">
+        className="flex flex-col sm:gap-20 md:pl-20 md:pr-10 py-10 sm:py-20 w-full">
         {projects.map((project) => (
-          <div key={project} className="shadow-2xl">
-            <div className="flex justify-center p-4 md:p-8 w-full h-full md:h-[500px] bg-primary-500 dark:bg-primary-400 aspect-square">
+          <div
+            key={project}
+            className="sm:flex sm:shadow-2xl items-center bg-primary-50 dark:bg-primary-800">
+            <div className="flex justify-center p-4 md:p-8 w-full h-full md:h-[500px] md:min-w-[500px] bg-primary-500 dark:bg-primary-400 aspect-square">
               <img
                 src={t(`list.${project}.image.src`)}
                 alt={t(`list.${project}.image.alt`)}
@@ -27,25 +28,18 @@ export function Projects() {
                 className="max-h-full w-auto max-w-full drop-shadow-lg object-contain"
               />
             </div>
-            <div className="flex flex-col md:flex-row bg-primary-200 dark:bg-primary-700">
-              <Container
-                closing="curlyBrace"
-                shadow={false}
-                className="flex flex-col md:flex-row gap-4">
-                <div className="flex flex-col cursor-pointer">
-                  {attributes.map((attribute) => (
-                    <Attribute
-                      key={attribute}
-                      label={t(`list.${project}.${attribute}.label`)}
-                      value={t(`list.${project}.${attribute}.value`)}
-                    />
-                  ))}
-                </div>
-              </Container>
-              <div className="flex items-center justify-center py-4 px-4 sm:px-12">
-                <LinkButton label={t("open")} href={`/projects/${project}`} />
+            <Container closing="curlyBrace" shadow={false} background={false}>
+              <div className="flex flex-col">
+                {attributes.map((attribute) => (
+                  <Attribute
+                    key={attribute}
+                    label={t(`list.${project}.${attribute}.label`)}
+                    value={t(`list.${project}.${attribute}.value`)}
+                  />
+                ))}
+                <Attribute label="action" value={t("open")} href={`/projects/${project}`} />
               </div>
-            </div>
+            </Container>
           </div>
         ))}
       </Section>
