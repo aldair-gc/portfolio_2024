@@ -16,7 +16,7 @@ export function MenuBar({ links }: Props) {
       <ScrollRestoration />
       <div className="fixed top-0 flex justify-end w-full backdrop-blur-md bg-primary-100/50 dark:bg-primary-800/50 z-20">
         <div
-          className="sm:hidden flex items-center justify-center w-12 h-12 bg-primary-300 cursor-pointer select-none"
+          className="sm:hidden flex items-center justify-center w-12 h-12 bg-primary-300 dark:bg-primary-600 cursor-pointer select-none"
           onClick={() => setIsMenuOpen((state) => !state)}>
           <p className="text-3xl">{isMenuOpen ? "X" : ">_"}</p>
         </div>

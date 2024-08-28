@@ -15,9 +15,9 @@ export function RootLayout() {
         className="fixed inset-0 -z-10 transform-gpu overflow-hidden blur-3xl">
         <div
           style={{
-            clipPath: "polygon(50% 70%, 2% 40%, 100% 4%, 30% 90%, 35% 1%, 90% 90%)",
+            clipPath: "polygon(0% 70%, 20% 20%, 0% 0%, 30% 100%, 100% 10%, 20% 50%, 100% 50%)",
           }}
-          className="relative aspect-square h-full left-1/2 -translate-x-1/2 bg-gradient-to-tr from-neutral-600 to-neutral-100 opacity-30"
+          className="relative aspect-square h-full left-1/2 -translate-x-1/2 bg-gradient-to-tr from-neutral-600 to-neutral-100 opacity-20"
         />
       </div>
     </div>
