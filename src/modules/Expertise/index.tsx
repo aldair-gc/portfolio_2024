@@ -27,11 +27,7 @@ export function Expertise() {
             <Container closing="squareBrace" background={false} shadow={false}>
               <div className="flex flex-wrap gap-4">
                 {field.values.map((value) => (
-                  <Skill
-                    key={value}
-                    label={t(`list.${field.name}.list.${value}.label`)}
-                    imageSrc={t(`list.${field.name}.list.${value}.imageSrc`)}
-                  />
+                  <Skill key={value} expertise={field.name} skill={value} />
                 ))}
               </div>
             </Container>
