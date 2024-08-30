@@ -195,43 +195,43 @@
         "list": {
           "node": {
             "label": "Node",
-            "imageSrc": "/icons/nodejs.png"
+            "imageSrc": "nodejs.png"
           },
           "redux": {
             "label": "Redux",
-            "imageSrc": "/icons/redux.png"
+            "imageSrc": "redux.png"
           },
           "sql": {
             "label": "SQL",
-            "imageSrc": "/icons/postgres.png"
+            "imageSrc": "postgres.png"
           },
           "prisma": {
             "label": "Prisma",
-            "imageSrc": "/icons/prisma.png"
+            "imageSrc": "prisma.png"
           },
           "nginx": {
             "label": "Nginx",
-            "imageSrc": "/icons/nginx.png"
+            "imageSrc": "nginx.png"
           },
           "apache": {
             "label": "Apache",
-            "imageSrc": "/icons/apache.png"
+            "imageSrc": "apache.png"
           },
           "rest": {
             "label": "REST",
-            "imageSrc": "/icons/restapi.png"
+            "imageSrc": "restapi.png"
           },
           "mongodb": {
             "label": "Mongo DB",
-            "imageSrc": "/icons/mongodb.png"
+            "imageSrc": "mongodb.png"
           },
           "express": {
             "label": "Express",
-            "imageSrc": "/icons/expressjs.png"
+            "imageSrc": "expressjs.png"
           },
           "c": {
             "label": "C",
-            "imageSrc": "/icons/c.png"
+            "imageSrc": "c.png"
           }
         }
       },
@@ -240,39 +240,39 @@
         "list": {
           "css": {
             "label": "CSS",
-            "imageSrc": "/icons/css3.png"
+            "imageSrc": "css3.png"
           },
           "html": {
             "label": "HTML",
-            "imageSrc": "/icons/html5.png"
+            "imageSrc": "html5.png"
           },
           "javascript": {
             "label": "JavaScript",
-            "imageSrc": "/icons/js.png"
+            "imageSrc": "js.png"
           },
           "typescript": {
             "label": "TypeScript",
-            "imageSrc": "/icons/ts.png"
+            "imageSrc": "ts.png"
           },
           "react": {
             "label": "React",
-            "imageSrc": "/icons/react.png"
+            "imageSrc": "react.png"
           },
           "nextjs": {
             "label": "NextJS",
-            "imageSrc": "/icons/nextjs.png"
+            "imageSrc": "nextjs.png"
           },
           "reactNative": {
             "label": "React Native",
-            "imageSrc": "/icons/react.png"
+            "imageSrc": "react.png"
           },
           "vite": {
             "label": "Vite",
-            "imageSrc": "/icons/vite.png"
+            "imageSrc": "vite.png"
           },
           "tailwind": {
             "label": "TailwindCSS",
-            "imageSrc": "/icons/tailwind.png"
+            "imageSrc": "tailwind.png"
           }
         }
       },
@@ -281,35 +281,35 @@
         "list": {
           "git": {
             "label": "Git",
-            "imageSrc": "/icons/git.png"
+            "imageSrc": "git.png"
           },
           "ui": {
             "label": "UI",
-            "imageSrc": "/icons/design.png"
+            "imageSrc": "design.png"
           },
           "ux": {
             "label": "UX",
-            "imageSrc": "/icons/insight.png"
+            "imageSrc": "insight.png"
           },
           "docker": {
             "label": "Docker",
-            "imageSrc": "/icons/docker.png"
+            "imageSrc": "docker.png"
           },
           "strapi": {
             "label": "Strapi",
-            "imageSrc": "/icons/strapi.png"
+            "imageSrc": "strapi.png"
           },
           "jest": {
             "label": "Jest",
-            "imageSrc": "/icons/jest.png"
+            "imageSrc": "jest.png"
           },
           "solid": {
             "label": "SOLID",
-            "imageSrc": "/icons/solid.png"
+            "imageSrc": "solid.png"
           },
           "designPatterns": {
             "label": "Design Patterns",
-            "imageSrc": "/icons/design-patterns.png"
+            "imageSrc": "design-patterns.png"
           }
         }
       }

@@ -14,7 +14,7 @@ export function Skill({ expertise, skill, ...rest }: Props) {
       className="relative flex items-center flex-col w-20 h-20 gap-2 group hover:scale-110 transition-all"
       {...rest}>
       <img
-        src={t(`list.${expertise}.list.${skill}.imageSrc`)}
+        src={`skill_images/${t(`list.${expertise}.list.${skill}.imageSrc`)}`}
         alt={t(`list.${expertise}.list.${skill}.label`)}
         width={54}
         height={54}
