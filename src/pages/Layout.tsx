@@ -1,6 +1,6 @@
-import { MenuBar } from "@/modules/MenuBar";
 import { useTranslation } from "react-i18next";
 import { Outlet } from "react-router-dom";
+import { MenuBar } from "@/modules/MenuBar";
 
 export function RootLayout() {
   const LINKS = ["home", "projects", "expertise", "about", "contact"] as const;

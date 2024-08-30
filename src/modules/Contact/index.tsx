@@ -1,7 +1,7 @@
-import { Attribute } from "../../components/Attribute";
-import { Container } from "../../components/Container";
-import { Section } from "../../components/Section";
-import { TextBox } from "../../components/TextBox";
+import { Attribute } from "@/components/Attribute";
+import { Container } from "@/components/Container";
+import { Section } from "@/components/Section";
+import { TextBox } from "@/components/TextBox";
 import { useTranslation } from "react-i18next";
 
 interface Props {

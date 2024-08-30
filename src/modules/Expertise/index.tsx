@@ -1,7 +1,7 @@
-import { Section } from "../../components/Section";
-import { Container } from "../../components/Container";
 import { useTranslation } from "react-i18next";
-import { Skill } from "./Skill";
+import { Section } from "@/components/Section";
+import { Container } from "@/components/Container";
+import { Skill } from "@/modules/Expertise/Skill";
 import expertise from "@/assets/expertise.json";
 
 export function Expertise() {

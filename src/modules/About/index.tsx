@@ -1,6 +1,6 @@
 import { Section } from "@/components/Section";
 import { Container } from "@/components/Container";
-import { Attribute } from "../../components/Attribute";
+import { Attribute } from "@/components/Attribute";
 import { useTranslation } from "react-i18next";
 
 export function About() {

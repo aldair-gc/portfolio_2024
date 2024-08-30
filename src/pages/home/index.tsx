@@ -1,10 +1,10 @@
-import { About } from "@/modules/About";
-import { Contact } from "@/modules/Contact";
-import { Expertise } from "@/modules/Expertise";
+import { useTranslation } from "react-i18next";
 import { Hero } from "@/modules/Hero";
 import { Projects } from "@/modules/Projects";
+import { Expertise } from "@/modules/Expertise";
+import { About } from "@/modules/About";
+import { Contact } from "@/modules/Contact";
 import { Sticker } from "@/modules/Sticker";
-import { useTranslation } from "react-i18next";
 
 export function Home() {
   const { t } = useTranslation("translation", { keyPrefix: "extra" });

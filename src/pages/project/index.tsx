@@ -1,10 +1,10 @@
+import { ScrollRestoration, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Contact } from "@/modules/Contact";
 import { Container } from "@/components/Container";
 import { Section } from "@/components/Section";
 import { Attribute } from "@/components/Attribute";
 import { ProjectList } from "@/modules/Projects/ProjectList";
-import { useTranslation } from "react-i18next";
-import { ScrollRestoration, useParams } from "react-router-dom";
 
 export function Project() {
   const { project } = useParams();

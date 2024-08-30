@@ -1,4 +1,4 @@
-import { Container } from "../../components/Container";
+import { Container } from "@/components/Container";
 import { useTranslation } from "react-i18next";
 
 export function Hero() {
